@@ -1,0 +1,57 @@
+.book-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  .book-item {
+    box-sizing: border-box;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+  }
+}
+.wrapper-lorem-text{
+  width: 100%;
+}
+.lorem-text{
+  max-width: 600px;
+  margin: 0 auto;
+}
+button,[type=button],[type=reset],[type=submit]{
+  -webkit-appearance:button
+}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.action-group {
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}
+.load-more {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+[disabled]{
+  background-color: #dadada;
+  border-color: #dadada;
+}
